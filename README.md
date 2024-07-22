@@ -37,6 +37,7 @@ A donut chart is similar to a pie chart but with a central hole, giving it a rin
 A stacked bar chart is a bar graph where individual bars are divided into segments representing subcategories. The length of each segment is proportional to its value, showing the cumulative effect and comparison of categories within a dataset.
 
 Pie Chart:-
+
 ![image](https://github.com/user-attachments/assets/3124707b-412c-42a7-a53b-f63c6c7b0e99)
 
 In this interactive chart, the subscription rate is analyzed based on the contact method: 
@@ -83,6 +84,7 @@ The count of age is analyzed based on education(Unknown)
 Stacked bar graph:-
 
 This graph shows the impact of education on subscription.
+
 ![image](https://github.com/user-attachments/assets/4939a1fc-40da-4d09-9639-78e498a52f5c)
 
 In this stacked bar chart, the subscription rate is analyzed by job type, which includes 12 categories:
