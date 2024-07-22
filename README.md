@@ -24,7 +24,7 @@ The basic steps used in data preprocessing:
 4. Added multiple conditional columns
 5. Added an index
 
-## Visualization (Dashboard-PowerBI)
+## Visualization (Dashboard-PowerBI) & Conclusion
 Data visualization is the graphical representation of information and data. It uses visual elements like charts, graphs, and maps to provide an accessible way to see and understand trends, outliers, and patterns in data. Visualization helps make complex data more comprehensible and actionable, enabling better decision-making by presenting information clearly and effectively.
 
 **Pie Chart**
@@ -54,7 +54,8 @@ subscription rate by contact(Cellular)
 ![image](https://github.com/user-attachments/assets/5f50db6b-5748-4856-b431-092acdb88ac0)
 
 
-Donut Chart:-
+Donut Graph:-
+
 ![image](https://github.com/user-attachments/assets/1c5bc670-731c-4d56-9329-2f6125e53d00)
 
 In the donut chart, the count of age is analyzed based on education, which has four categories:
@@ -75,4 +76,45 @@ The count of age is analyzed based on education(Secondary)
 The count of age is analyzed based on education(Tertiary)
 ![image](https://github.com/user-attachments/assets/c597e437-b8e2-4018-9693-918406ca2156)
 
+The count of age is analyzed based on education(Unknown)
+![image](https://github.com/user-attachments/assets/43e71e57-01cf-4f55-93bd-4d1bfdec2dff)
 
+
+Stacked bar graph:-
+
+This graph shows the impact of education on subscription.
+![image](https://github.com/user-attachments/assets/4939a1fc-40da-4d09-9639-78e498a52f5c)
+
+In this stacked bar chart, the subscription rate is analyzed by job type, which includes 12 categories:
+
+1. Student
+2. Retired
+3. Unemployed
+4. Management
+5. Unknown
+6. Admin.
+7. Self-employed
+8. Technician
+9. Services
+10. Housemaid
+11. Entrepreneur
+12. Blue-collar
+
+The chart illustrates the impact of these job types on the subscription rate.
+
+![image](https://github.com/user-attachments/assets/f073ef07-b66d-46b3-8926-be4a32e3d14a)
+
+
+## Conclusion
+
+Upon successfully completing the project, including both preprocessing and visualization stages, several key insights have been uncovered regarding the factors influencing subscription rates. 
+
+During the preprocessing phase, the data was meticulously cleaned and transformed to ensure accuracy and consistency. This involved handling missing values, identifying and addressing outliers, and creating new conditional columns to enrich the dataset. These preprocessing steps were crucial for preparing a robust dataset that could support meaningful analysis.
+
+In the visualization phase, various charts were employed to explore and understand the data comprehensively. The donut chart illustrated the distribution of age based on education levels, revealing how educational background correlates with age demographics. It was observed that education plays a significant role in shaping subscription rates, with certain education categories showing higher or lower subscription tendencies.
+
+The stacked bar chart provided insights into the impact of different job types on subscription rates. By analyzing 12 job categories, the chart highlighted which occupations had the highest and lowest subscription rates. This analysis demonstrated that job type has a substantial influence on subscription outcomes, with some professions showing a strong correlation with higher subscription rates.
+
+Additionally, the interactive chart detailing subscription rates by contact method (telephone, unknown, cellular) further emphasized how contact mode affects subscription likelihood. The data showed that unknown contact methods were associated with a particular subscription rate, providing valuable information on how different contact strategies might influence client engagement.
+
+In conclusion, the project successfully addressed multiple questions regarding the impact of job type and education level on subscription rates. The preprocessing and visualization efforts revealed significant patterns and trends, offering actionable insights for optimizing marketing strategies and understanding client behavior. This comprehensive analysis provides a clear understanding of key factors influencing subscription decisions, paving the way for more informed and effective decision-making.
